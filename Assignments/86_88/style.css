@@ -1,0 +1,61 @@
+.center-flex {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.center-position {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.circle-100 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.circle-200 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+div {
+  background-color: #dddddd;
+  margin: 40px;
+  width: 500px;
+  padding: 25px;
+  position: relative;
+}
+
+.arrow::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-width: 20px;
+  border-style: solid;
+  border-color: #dddddd;
+}
+
+.top::after {
+    top: calc(0% + -20px);
+    border-color: transparent transparent #dddddd transparent;
+}
+.bottom::after {
+    top: calc(100% + 20px);
+    border-color: #dddddd transparent transparent transparent;
+}
+.left::after {
+    left: calc(0% + -20px);
+    border-color: transparent #dddddd transparent transparent;
+}
+
+.right::after {
+    left: calc(100% + 20px);
+    border-color: transparent transparent transparent #dddddd;
+}

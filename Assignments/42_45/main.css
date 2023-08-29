@@ -1,0 +1,62 @@
+.parent {
+  background: #f2f2f4;
+  width: 400px;
+  margin: 100px auto;
+  text-align: center;
+  height: 200px;
+  padding: 20px;
+  font-family: Arial;
+  text-transform: capitalize;
+  transition-duration: 0.5s;
+}
+
+.parent:hover {
+  margin: 50px auto;
+}
+
+.child {
+  background-color: #dededc;
+  padding: 20px;
+  margin-top: 10px;
+  transition-delay: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.parent:hover .child {
+  margin-top: 30px;
+}
+
+.assi-2 div {
+  width: 400px !important;
+  margin: 20px auto;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  position: relative;
+  font-size: 20px !important;
+  color: transparent !important;
+  background-color: #eee !important;
+  border: none !important;
+}
+
+.assi-2 div::before {
+  content: "Elzero";
+  position: absolute;
+  top: 21px;
+  left: 185px;
+  color: black;
+
+}
+
+/* :root {
+  --mainColor: #009688;
+  --mainPadding: 10px;
+} */
+
+.assi-3 div {
+  color: var(--mainColor, red);
+  border: 2px solid var(--mainColor, black);
+  padding: var(--mainPadding, 10px);
+  background-color: white;
+  margin: 10px;
+}

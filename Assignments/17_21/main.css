@@ -1,0 +1,60 @@
+.a5-1{
+    text-transform: capitalize;
+    text-align: center;
+    color: #000000;
+    text-shadow: 1px 1px 0 #f44336, 2px 2px 0 #2492f1, 3px 3px 0 #9c27b0; 
+    
+    
+}
+
+.one{
+    text-transform: uppercase;
+}
+
+.two{
+    text-transform: capitalize;
+
+}
+
+.three{
+    text-transform: lowercase;
+
+}
+
+.four{
+    background-color: #eeeeee;
+    width: 400px;
+    margin:20px auto;
+    padding: 10px; 
+}
+
+.five{
+   
+    background-color: #eeeeee;
+    width: 400px;
+    margin:20px auto;
+    padding: 10px; 
+}
+
+.six{
+    white-space: nowrap;
+    overflow: hidden;
+    background-color: #eeeeee;
+    width: 400px;
+    margin:20px auto;
+    padding: 10px;
+    text-overflow: ellipsis; 
+}
+
+a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 20px auto;
+    border-bottom: 10px solid #00514a;
+    background-color: #009688;
+    text-align: center;
+    display: block;
+    width: fit-content;
+}

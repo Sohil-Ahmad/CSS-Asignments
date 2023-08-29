@@ -1,0 +1,117 @@
+div{
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: blueviolet;
+    background-color: #8a2be2;
+    background-color: rgb(138 43 226);
+    color: white;
+}
+
+.assign-1-shape-2{
+    background-color: #8a2be280;
+    
+}
+
+.assign-1-shape-3{
+    background-color: #8a2be21a;
+}
+
+.assign-2-shape-1{
+    height: 400px;
+    width: 400px;
+    color: white;
+    background-repeat: no-repeat;
+    background-color: #eee;
+    background-image: url(file:///C:/Users/Suhail_Adam/Downloads/the%20regular%20show%20eng/%D8%AA%D9%83%D9%84%D9%8A%D9%81%D8%A7%D8%AA%20CSS%20%D8%A7%D9%84%D8%AF%D8%B1%D9%88%D8%B3%20%D9%85%D9%86%2005%20%D8%A5%D9%84%D9%89%2008%20_%20%D8%A3%D9%83%D8%A7%D8%AF%D9%8A%D9%85%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B2%D9%8A%D8%B1%D9%88_files/css-assignment-5-8.png);
+}
+.assign-2-shape-2{
+    height: 400px;
+    width: 400px;
+    color: white;
+    background-repeat: repeat-y;
+    background-color: #eee;
+    background-image: url(file:///C:/Users/Suhail_Adam/Downloads/the%20regular%20show%20eng/%D8%AA%D9%83%D9%84%D9%8A%D9%81%D8%A7%D8%AA%20CSS%20%D8%A7%D9%84%D8%AF%D8%B1%D9%88%D8%B3%20%D9%85%D9%86%2005%20%D8%A5%D9%84%D9%89%2008%20_%20%D8%A3%D9%83%D8%A7%D8%AF%D9%8A%D9%85%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B2%D9%8A%D8%B1%D9%88_files/css-assignment-5-8.png);
+}
+.assign-2-shape-3{
+    height: 400px;
+    width: 400px;
+    color: white;
+    background-repeat: repeat-x;
+    background-color: #eee;
+    background-image: url(file:///C:/Users/Suhail_Adam/Downloads/the%20regular%20show%20eng/%D8%AA%D9%83%D9%84%D9%8A%D9%81%D8%A7%D8%AA%20CSS%20%D8%A7%D9%84%D8%AF%D8%B1%D9%88%D8%B3%20%D9%85%D9%86%2005%20%D8%A5%D9%84%D9%89%2008%20_%20%D8%A3%D9%83%D8%A7%D8%AF%D9%8A%D9%85%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B2%D9%8A%D8%B1%D9%88_files/css-assignment-5-8.png);
+}
+.assign-2-shape-4{
+    height: 400px;
+    width: 400px;
+    color: white;
+    background-repeat: repeat;
+    background-color: #eee;
+    background-image: url(file:///C:/Users/Suhail_Adam/Downloads/the%20regular%20show%20eng/%D8%AA%D9%83%D9%84%D9%8A%D9%81%D8%A7%D8%AA%20CSS%20%D8%A7%D9%84%D8%AF%D8%B1%D9%88%D8%B3%20%D9%85%D9%86%2005%20%D8%A5%D9%84%D9%89%2008%20_%20%D8%A3%D9%83%D8%A7%D8%AF%D9%8A%D9%85%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B2%D9%8A%D8%B1%D9%88_files/css-assignment-5-8.png);
+}
+
+.assign-3-shape-1{
+    height: 400px;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-color: #eee;
+    background-image: url(file:///C:/Users/Suhail_Adam/Downloads/the%20regular%20show%20eng/%D8%AA%D9%83%D9%84%D9%8A%D9%81%D8%A7%D8%AA%20CSS%20%D8%A7%D9%84%D8%AF%D8%B1%D9%88%D8%B3%20%D9%85%D9%86%2005%20%D8%A5%D9%84%D9%89%2008%20_%20%D8%A3%D9%83%D8%A7%D8%AF%D9%8A%D9%85%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B2%D9%8A%D8%B1%D9%88_files/css-assignment-5-8.png);
+}
+.assign-3-shape-2{
+    height: 400px;
+    width: 400px;
+    background-repeat: repeat-y;
+    background-position: right;
+    background-color: #eee;
+    background-image: url(file:///C:/Users/Suhail_Adam/Downloads/the%20regular%20show%20eng/%D8%AA%D9%83%D9%84%D9%8A%D9%81%D8%A7%D8%AA%20CSS%20%D8%A7%D9%84%D8%AF%D8%B1%D9%88%D8%B3%20%D9%85%D9%86%2005%20%D8%A5%D9%84%D9%89%2008%20_%20%D8%A3%D9%83%D8%A7%D8%AF%D9%8A%D9%85%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B2%D9%8A%D8%B1%D9%88_files/css-assignment-5-8.png);
+}
+.assign-3-shape-3{
+    height: 400px;
+    width: 400px;
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-color: #eee;
+    background-image: url(file:///C:/Users/Suhail_Adam/Downloads/the%20regular%20show%20eng/%D8%AA%D9%83%D9%84%D9%8A%D9%81%D8%A7%D8%AA%20CSS%20%D8%A7%D9%84%D8%AF%D8%B1%D9%88%D8%B3%20%D9%85%D9%86%2005%20%D8%A5%D9%84%D9%89%2008%20_%20%D8%A3%D9%83%D8%A7%D8%AF%D9%8A%D9%85%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B2%D9%8A%D8%B1%D9%88_files/css-assignment-5-8.png);
+}
+.assign-3-shape-4{
+    height: 400px;
+    width: 400px;
+    background-repeat: repeat;
+    background-color: #eee;
+    background-image: url(file:///C:/Users/Suhail_Adam/Downloads/the%20regular%20show%20eng/%D8%AA%D9%83%D9%84%D9%8A%D9%81%D8%A7%D8%AA%20CSS%20%D8%A7%D9%84%D8%AF%D8%B1%D9%88%D8%B3%20%D9%85%D9%86%2005%20%D8%A5%D9%84%D9%89%2008%20_%20%D8%A3%D9%83%D8%A7%D8%AF%D9%8A%D9%85%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B2%D9%8A%D8%B1%D9%88_files/css-assignment-5-8.png);
+}
+
+.assign-4-shape-1,
+.assign-4-shape-2,
+.assign-4-shape-3,
+.assign-4-shape-4{
+    height: 400px;
+    width: 400px;
+    background-color: #eee;
+}
+
+.assign-4-shape-1{
+    background-image: url(file:///C:/Users/Suhail_Adam/Downloads/the%20regular%20show%20eng/%D8%AA%D9%83%D9%84%D9%8A%D9%81%D8%A7%D8%AA%20CSS%20%D8%A7%D9%84%D8%AF%D8%B1%D9%88%D8%B3%20%D9%85%D9%86%2005%20%D8%A5%D9%84%D9%89%2008%20_%20%D8%A3%D9%83%D8%A7%D8%AF%D9%8A%D9%85%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B2%D9%8A%D8%B1%D9%88_files/css-assignment-5-8.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+.assign-4-shape-2{
+    background-size: 80%;
+    background-repeat: repeat-y;
+    background-position: right;
+    background-image: url(file:///C:/Users/Suhail_Adam/Downloads/the%20regular%20show%20eng/%D8%AA%D9%83%D9%84%D9%8A%D9%81%D8%A7%D8%AA%20CSS%20%D8%A7%D9%84%D8%AF%D8%B1%D9%88%D8%B3%20%D9%85%D9%86%2005%20%D8%A5%D9%84%D9%89%2008%20_%20%D8%A3%D9%83%D8%A7%D8%AF%D9%8A%D9%85%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B2%D9%8A%D8%B1%D9%88_files/css-assignment-5-8.png);
+}
+.assign-4-shape-3{
+    background-size: 80%;
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-image: url(file:///C:/Users/Suhail_Adam/Downloads/the%20regular%20show%20eng/%D8%AA%D9%83%D9%84%D9%8A%D9%81%D8%A7%D8%AA%20CSS%20%D8%A7%D9%84%D8%AF%D8%B1%D9%88%D8%B3%20%D9%85%D9%86%2005%20%D8%A5%D9%84%D9%89%2008%20_%20%D8%A3%D9%83%D8%A7%D8%AF%D9%8A%D9%85%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B2%D9%8A%D8%B1%D9%88_files/css-assignment-5-8.png);
+}
+.assign-4-shape-4{
+    background-repeat: no-repeat;
+    background-position-x: right ;
+    background-position-y: bottom ;
+    background-image: url(file:///C:/Users/Suhail_Adam/Downloads/the%20regular%20show%20eng/%D8%AA%D9%83%D9%84%D9%8A%D9%81%D8%A7%D8%AA%20CSS%20%D8%A7%D9%84%D8%AF%D8%B1%D9%88%D8%B3%20%D9%85%D9%86%2005%20%D8%A5%D9%84%D9%89%2008%20_%20%D8%A3%D9%83%D8%A7%D8%AF%D9%8A%D9%85%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B2%D9%8A%D8%B1%D9%88_files/css-assignment-5-8.png);
+}
+
+

@@ -1,0 +1,213 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.assi-1 div {
+  color: #ff5722;
+  background-color: #eee;
+  width: 100px;
+  height: 100px;
+  margin: 20px auto;
+  border-radius: 50%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 5px 0 0 0 #ff5722, -5px 0 0 0 #03a9f4;
+}
+
+.assi-2 .parent,
+.assi-3 .parent,
+.assi-4 .parent,
+.assi-5 .parent {
+  width: 600px;
+  height: 300px;
+  margin: 20px auto;
+  background-color: #eee;
+  padding: 10px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.assi-2 .parent {
+  align-content: space-between;
+  justify-content: space-between;
+}
+
+.assi-3 .parent {
+  flex-direction: row-reverse;
+}
+
+.assi-2 .parent div {
+  background-color: #f44336;
+  padding: 10px 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 5px;
+  color: white;
+  width: calc(90% / 3);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.assi-3 .parent {
+  justify-content: space-between;
+}
+
+.assi-3 .parent div {
+  background-color: #607d8b;
+  padding: 10px 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  width: calc(80% / 3);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.assi-3 .parent .one {
+  order: 4;
+  align-self: flex-end;
+}
+
+.assi-3 .parent .two {
+  order: 5;
+}
+
+.assi-3 .parent .three {
+  order: 3;
+  align-self: flex-start;
+}
+
+.assi-3 .parent .four {
+  order: 2;
+}
+
+.assi-3 .parent .five {
+  order: 6;
+}
+
+.assi-3 .parent .six {
+  order: 3;
+}
+
+.assi-4 .parent {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.assi-4 .parent div {
+  background-color: #009688;
+  height: calc(90% / 3);
+  width: 5%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.assi-4 .parent .two {
+  align-self: flex-start;
+  width: 60%;
+}
+
+.assi-5 .parent {
+  justify-content: space-between;
+}
+
+.assi-5 .parent div {
+  height: 50%;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.assi-5 .parent .one {
+  order: 2;
+  background-color: #ff9800;
+}
+.assi-5 .parent .two {
+  order: 3;
+  background-color: #8bc34a;
+  align-self: flex-end;
+}
+.assi-5 .parent .three {
+  order: 4;
+  background-color: #795548;
+}
+.assi-5 .parent .four {
+  order: 1;
+  background-color: #673ab7;
+  align-self: flex-end;
+}
+
+:root {
+  --color: #ddd;
+  --margin: 10px;
+  --padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.assi-6 .page {
+  background-color: #eee;
+  padding: var(--padding);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-area {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  background-color: var(--color);
+  padding: var(--padding);
+  margin: var(--margin);
+  display: flex;
+  justify-content: space-between;
+}
+
+.content,
+.sidebar {
+  background-color: var(--color);
+  padding: var(--padding);
+  margin: var(--margin);
+  width: calc(100% / 3);
+  height: 400px;
+}
+
+.content {
+  flex-grow: 1;
+}
+
+.logo,
+.links {
+  background-color: var(--color);
+  padding: var(--padding);
+  margin: var(--margin);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 40px;
+  width: calc(100% / 10);
+  flex-wrap: wrap;
+}
+
+.links {
+  list-style: none;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+
+.links li {
+  padding: 10px;
+}

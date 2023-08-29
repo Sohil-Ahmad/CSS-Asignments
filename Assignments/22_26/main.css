@@ -1,0 +1,57 @@
+.one {
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid #ff5722;
+  width: 300px;
+}
+
+.pone {
+  text-align: center;
+  padding: inherit;
+  border: inherit;
+  background-color: #dddddd;
+}
+
+.two {
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid #009688;
+  width: 300px;
+}
+
+.tone {
+  text-align: center;
+  padding: inherit;
+  border: inherit;
+  background-color: #dddddd;
+}
+
+.o-one {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.t-two {
+  text-align: center;
+  font-family: "Cairo", sans-serif;
+}
+
+.th-three {
+  text-align: center;
+  font-family: "Jomhuria", cursive;
+}
+.tt-one {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.tt-two {
+  text-align: center;
+  font-size: 2rem;
+  cursor: e-resize;
+}
+
+.tt-three {
+  text-align: center;
+  font-size: 1.5rem;
+}
